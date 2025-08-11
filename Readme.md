@@ -29,13 +29,13 @@ minikube service my-service
 Or:
 minikube service my-service --url
 curl $(minikube service my-service --url)
-![Description of image](Screenshorts/Screenshot(56).png)
+![Description of image](Screenshorts/Screenshot%20(56).png)
 
 📈 Scaling the Deployment
 kubectl scale deployment MyApp --replicas=5
 kubectl get pods
-![Description of image](Screenshorts/Screenshot(57).png)
-![Description of image](Screenshorts/Screenshot(58).png)
+![Description of image](Screenshorts/Screenshot%20(57).png)
+![Description of image](Screenshorts/Screenshot%20(58).png)
 
 
 --------------------------logs---------------------------------
